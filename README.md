@@ -9,7 +9,7 @@ Stage: Testing internally on product app.
 
 ## Installation
 
-[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.ralii/defnk.svg)]
+![Clojars Project](https://img.shields.io/clojars/v/org.clojars.ralii/defnk.svg)
 
 ## Examples
 
