@@ -5,7 +5,7 @@ There is no typechecking for parameter types and no multiple arities are allowed
 
 Requires metosin/malli since it uses it internally
 
-Stage: Testing internally on product app.
+Stage: Testing internally on production app.
 
 ## Installation
 
