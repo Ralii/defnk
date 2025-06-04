@@ -3,6 +3,6 @@
 
 (defmacro defnk! [name params & body]
   `(clojure.core/defn ~name
-     {:malli/schema [:=> [:cat ~(vec (concat [:map] (mapv (fn [key] [(keyword key) :any]) (second (first (first params))))))]]}
+     {:malli/schema [:=> [:cat ~(vec (concat [:map] (mapv (fn [key] [(keyword key) :any]) (second (first (first params))))))] :any]}
      ~params
-     ~body))
+     ~@body))
